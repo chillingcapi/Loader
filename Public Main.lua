@@ -1,6 +1,6 @@
 -- public
 
-if (game.CreatorId == 12851171) then 
+if (game.CreatorId == 12851171 or game.CreatorId == 15564363) then 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cc60cfe2aea52425a64c77e36e611e6d.lua"))()
     return 
 end
