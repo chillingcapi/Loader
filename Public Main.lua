@@ -2,7 +2,12 @@
 
 if (game.CreatorId == 12851171 or game.CreatorId == 15564363) then 
     loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cc60cfe2aea52425a64c77e36e611e6d.lua"))()
-    return 
+    return
+end
+
+if (game.CreatorId == 7523287) then
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/8c61850aeb29d0f011522329cfb15b77.lua"))()
+    return
 end
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/bbb9e167f6d5801e97294a2b01dd1fa6.lua"))()
